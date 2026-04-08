@@ -1,0 +1,49 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+.angular
+.sass-cache/
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
+
+# Admin tools
+.env
+serviceAccountKey.json
+package-lock.json
+node_modules
+backup
+work
+categories
+prompts*
+klc-images
+test-images
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/extensions.json
+.vscode/tasks.json
+.vscode/launch.json
+.editorconfig
+package-lock.json
+*.db

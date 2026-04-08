@@ -1,0 +1,168 @@
+    // --- NATURE & ENVIRONMENT ---
+    Nature, Animal, Plant, Family, Body, 
+    People, Health, Occupations, Sports
+    
+    // --- DAILY LIFE ---
+    Food, Clothing, Home, Vehicle, Culture, Vegetable, Fruit, Furniture
+    
+    // --- ABSTRACTIONS & SYSTEMS ---
+    Number, DateTime, Color, Direction, Money, Shape, Building, Metal
+    
+    // --- ACTIONS & COMMUNICATION ---
+    Movement, Emotion
+    
+    // --- PLACES & OBJECTS ---
+    Place, Tool, School, Weapon
+    
+    // --- REMAINING ABSTRACTS ---
+    Quantity, Quality, MeasureWord
+
+    // --- Semantic categories for Adjectives
+    SetDenoting, Relational, Evaluative, Quantitative, Stative
+
+    // --- Semantic categories for Verbs
+    Activity, Mental, Communication, Causative, Existence, Motion, Possession
+
+    // --- Semantic categories for Adverbs
+    Manner, Time, Frequency, Degree, Certainty, Linking, Negation
+
+// --- 自然与环境 ---
+Nature        自然
+Animal        动物
+Plant         植物
+Family        家庭
+Body          身体
+People        人物
+Health        健康
+Occupations   职业 (gone)
+Sports        运动 (gone)
+
+// --- 日常生活 ---
+Food          食物
+Clothing      衣物
+Home          家居
+Vehicle       交通工具
+Culture       文化
+Vegetable     蔬菜
+Fruit         水果 (gone)
+Furniture     家具
+Tableware     餐具 
+
+// --- 抽象与系统 ---
+Number        数字
+DateTime      时间
+Color         颜色
+Direction     方向
+Money         金钱
+Shape         形状
+Building      建筑
+Metal         金属
+
+// --- 行为与交流 ---
+Movement      动作 (gone)
+Emotion       情感
+
+// --- 地点与物品 ---
+Place         地点
+Tool          工具
+School        学校
+Weapon        武器
+Stationery    文具
+
+// --- 其他抽象概念 ---
+Quantity      数量
+Quality       性质
+MeasureWord   量词
+Particle      语气
+Preposition   介词
+Pronoun       代词
+
+
+// --- 形容词语义类别 ---
+SetDenoting   类属
+Relational    关系
+Evaluative    评价
+Quantitative  数量
+Stative       状态
+
+
+// --- 动词语义类别 ---
+Activity      (see next)
+Mental        心理
+Communication 交流
+Causative     使动
+Existence     存在
+Motion        移动
+Possession    拥有
+
+// --- 行为动词语义类别 (Activity) ---
+ActBasic      日常 (基本生活动作 - Basic Daily Living Activities)
+ActManual     手工 (手工/操作/制作类动作 - Manual / Operational / Crafting Actions)
+ActPhysical   运动 (运动/身体动态类动作 - Movement / Physical Dynamics Actions)
+ActSocial     社交 (社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions)
+
+// --- 副词语义类别 ---
+Manner        方式 (gone)
+Time          时间
+Frequency     频率
+Degree        程度
+Certainty     确定性
+Conjunction   连接
+Negation      否定
+
+Adjust level. Next -> Activity, MeasureWord
+
+// -- Somce categories changes
+Fruit --> Food
+Linking --> Conjunction
+Manner --> Evaluative
+Movement --> Evaluative
+NCultureoun --> Activity
+Interjection --> Particle
+InterjeEmotionction --"> Particle
+
+// Functional categories. The images are in Functional/category.png. E.G. Functional/Time.png
+
+"时间 Time"
+"确定性 Certainty"
+"连词 Conjunction"
+"量词 MeasureWord"
+"否定 Negation"
+"语气 Particle"
+"介词 Preposition"
+"代词 Pronoun"
+
+
+下面这三百多字的词类都是“行为动词”，能不能把它们分得再细一些，比如分成三到四组，每组七八十字？
+
+做 - 写 - 动 - 吃 - 喝 - 帮 - 开 - 拉 - 推 - 梳 - 洗 - 玩 - 看 - 睡 - 脱 - 走 - 停 - 办 - 加 - 完 - 打 - 扔 - 找 - 排 - 敲 - 查 - 求 - 流 - 碰 - 离 - 穿 - 端 - 练 - 让 - 选 - 通 - 问 - 使 - 刻 - 压 - 合 - 建 - 抓 - 按 - 放 - 教 - 敢 - 演 - 照 - 用 - 补 - 订 - 调 - 赶 - 造 - 配 - 防 - 领 - 证 - 修 - 划 - 吸 - 处 - 守 - 干 - 弄 - 当 - 扫 - 投 - 抱 - 抽 - 挂 - 指 - 挑 - 散 - 替 - 汇 - 治 - 测 - 破 - 租 - 移 - 等 - 结 - 聚 - 试 - 贴 - 赢 - 连 - 遇 - 避 - 醒 - 闪 - 闹 - 隔 - 举 - 倒 - 冲 - 切 - 剪 - 吐 - 吹 - 咬 - 咳 - 喷 - 夹 - 射 - 戒 - 扶 - 抄 - 披 - 抬 - 拆 - 拍 - 拔 - 拼 - 挡 - 挤 - 插 - 握 - 搞 - 摆 - 摇 - 摘 - 支 - 救 - 晒 - 歇 - 漏 - 献 - 绕 - 装 - 躲 - 钓 - 陪 - 骗 - 作 - 入 - 刮 - 刺 - 吊 - 吞 - 埋 - 奏 - 托 - 扣 - 护 - 拖 - 招 - 挖 - 挨 - 捉 - 捕 - 据 - 掏 - 撑 - 晾 - 束 - 止 - 泡 - 灭 - 炒 - 煮 - 熨 - 犯 - 磨 - 织 - 蒙 - 藏 - 负 - 赌 - 赖 - 逼 - 钻 - 铺 - 闭 - 除 - 集 - 顾 - 充 - 凑 - 凿 - 创 - 删 - 刨 - 制 - 剃 - 削 - 剥 - 割 - 劈 - 劫 - 勒 - 勾 - 叠 - 叼 - 吻 - 咽 - 啃 - 喘 - 嚼 - 寻 - 屯 - 延 - 征 - 扒 - 扛 - 扩 - 扮 - 扯 - 扳 - 抖 - 抛 - 抠 - 抡 - 抹 - 拄 - 担 - 拌 - 拎 - 拣 - 拦 - 拧 - 拨 - 拱 - 拴 - 拽 - 持 - 挎 - 挠 - 挥 - 挽 - 捂 - 捅 - 捆 - 捏 - 捶 - 掀 - 掐 - 揉 - 揪 - 搀 - 搁 - 摊 - 撇 - 撤 - 撬 - 攻 - 敬 - 敷 - 斗 - 斩 - 映 - 曰 - 栽 - 榨 - 沏 - 沾 - 注 - 浇 - 涂 - 涮 - 淋 - 淌 - 淘 - 溢 - 灌 - 炖 - 熏 - 熬 - 盗 - 砍 - 砸 - 磕 - 积 - 筑 - 筛 - 经 - 绑 - 绞 - 绣 - 置 - 舔 - 葬 - 蒸 - 裁 - 裹 - 许 - 设 - 豁 - 赴 - 蹭 - 辞 - 逗 - 逢 - 逮 - 遮 - 邀 - 采 - 销 - 镶 - 附 - 陷 - 雕 - 震 - 驮 - 驾 - 验 - 劝 - 辩 - 争 - 翻 - 扑 - 扭 - 晃 - 甩 - 蹦 - 蹬 - 跃 - 奔 - 踢 - 踩 - 跨 - 爬 -
+
+ActBasic  日常基本生活动作 - Basic Daily Living Activities 82
+"做","写","动","吃","喝","睡","脱","穿","洗","梳","玩","看","走","停","开","拉","推","完","打","扔","找","排","敲","流","碰","离","端","练","歇","献","陪","入","吞","托","护","招","止","泡","炒","煮","熨","犯","磨","织","藏","铺","闭","充","凑","削","剥","割","劈","勾","叠","叼","吻","咽","啃","喘","嚼","寻","屯","延","扛","除","扮,"抹","担","拌","拎","拣","拦","拧","拨","拱","拴","拽","持","挎","挠","敬","敷","删"
+
+ActManua手工/操作/制作类动作 - Manual / Operational / Crafting Actions 80
+"建","加","抓","按","放","敢","演","照","查","补","订","调","晾","试","冲","切","剪","吐","吹","咬","咳","喷","夹","射","戒","扶","抄","披","抬","拆","拍","拔","拼","挡","挤","插","握","搞","埋","奏","凿","创","摆","摇","摘","支","救","晒","漏","绕","装","躲","钓","作","刮","刺","吊","扣","拖","挨","捉","捕","撑","束","灭","勒","煎","蒸","裁","裹","扩","扒,"扳","拄","抠","剃"","扯","刨","制","挖","掏","举"
+
+ActPhysical 运动/身体动态类动作 - Movement / Physical Dynamics Actions 82
+"跑","跳","爬","倒","踢","踩","跨","钻","翻","扑","扭","晃","甩","蹦","蹬","跃","奔","追","闪","闹","抖","抛","抡","挥","挽","捂","捅","捆","捏","捶","掀","掐","揉","揪","搀","搁","摊","撇","撤","撬","攻","斗","斩","映","曰","栽","榨","沏","沾","注","浇","涂","涮","淋","淌","淘","溢","灌","炖","熏","熬","盗","砍","砸","磕","积","筑","筛","经","绑","绞","绣","置","舔","葬","逮","遮","干","弄"","刻","压","挂","指"
+
+ActSocial 社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions 81
+"帮","办","问","求","教","让","使,"合","连","集","顾","遇","避","醒","骗","邀","赌","据","负","劫","采","销","镶","附","陷","雕","震","驮","驾","验","争","辩","劝","谢","骂","夸","罚","奖","选","通","用","赶","造","配","防","领","证","修","划","吸","处","守","当","扫","投","抱","抽","挑","散","替","汇","治","测","赖","逼","破","租","移","等","结","聚","贴","赢","隔","许","设","征","豁","赴","蹭","辞","逗","逢","蒙"
+
+
+ActBasic  日常基本生活动作 - Basic Daily Living Activities
+做, 吃, 喝, 睡, 脱, 穿, 洗, 梳, 玩, 看, 走, 停, 帮, 开, 拉, 推, 办, 完, 打, 扔, 找, 排, 敲, 问, 流, 碰, 离, 端, 练, 让, 选, 通, 用, 赶, 醒, 闪, 闹, 歇, 献, 陪, 骗, 入, 吞, 托, 护, 招, 挖, 掏, 止, 泡, 炒, 煮, 犯, 磨, 织, 藏, 铺, 闭, 充, 凑, 削, 剥, 割, 劈, 勾, 叠, 叼, 吻, 咽, 啃, 喘, 嚼, 寻, 屯, 延, 扛, 扮, 扯, 抖, 抛, 抡, 抹, 担, 拌, 拎, 拣, 拦, 拧, 拨, 拱, 拴, 拽, 持, 挎, 挠, 挥, 挽, 捂, 捅, 捆, 捏, 捶, 掀, 掐, 揉, 揪, 搀, 搁, 摊, 撇, 撤, 撬, 敬, 敷, 斗, 斩, 映, 曰, 栽, 榨, 沏, 沾, 注, 浇, 涂, 涮, 淋, 淌, 淘, 溢, 灌, 炖, 熏, 熬
+
+ActManua手工/操作/制作类动作 - Manual / Operational / Crafting Actions
+建, 抓, 按, 放, 教, 敢, 演, 照, 补, 订, 调, 造, 配, 防, 领, 证, 修, 划, 吸, 处, 守, 干, 弄, 当, 扫, 投, 抱, 抽, 挂, 指, 挑, 散, 替, 汇, 治, 测, 破, 租, 移, 等, 结, 聚, 试, 贴, 赢, 连, 遇, 避, 隔, 举, 倒, 冲, 切, 剪, 吐, 吹, 咬, 咳, 喷, 夹, 射, 戒, 扶, 抄, 披, 抬, 拆, 拍, 拔, 拼, 挡, 挤, 插, 握, 搞, 摆, 摇, 摘, 支, 救, 晒, 漏, 绕, 装, 躲, 钓, 作, 刮, 刺, 吊, 扣, 拖, 挨, 捉, 捕, 撑, 束, 灭, 勒, 煎, 蒸, 裁, 裹
+
+ActPhysical 运动/身体动态类动作 - Movement / Physical Dynamics Actions
+跑, 跳, 爬, 冲, 举, 倒, 踢, 踩, 跨, 钻, 翻, 扑, 扭, 晃, 甩, 蹦, 蹬, 跃, 奔, 追, 赶, 闪, 闹, 抖, 抛, 抡, 挥, 挽, 捂, 捅, 捆, 捏, 捶, 掀, 掐, 揉, 揪, 搀, 搁, 摊, 撇, 撤, 撬, 攻, 斗, 斩, 映, 曰, 栽, 榨, 沏, 沾, 注, 浇, 涂, 涮, 淋, 淌, 淘, 溢, 灌, 炖, 熏, 熬, 盗, 砍, 砸, 磕, 积, 筑, 筛, 经, 绑, 绞, 绣, 置, 舔, 葬, 蒸, 裁, 裹
+
+ActSocial 社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions
+帮, 办, 问, 求, 教, 让, 使, 刻, 压, 合, 试, 连, 遇, 避, 醒, 骗, 邀, 采, 销, 镶, 附, 陷, 雕, 震, 驮, 驾, 验, 争, 辩, 劝, 谢, 骂, 夸, 罚, 奖, 选, 通, 用, 赶, 造, 配, 防, 领, 证, 修, 划, 吸, 处, 守, 干, 弄, 当, 扫, 投, 抱, 抽, 挂, 指, 挑, 散, 替, 汇, 治, 测, 破, 租, 移, 等, 结, 聚, 贴, 赢, 隔
+
+ActBasic      日常 (基本生活动作 - Basic Daily Living Activities)
+ActManual     手工 (手工/操作/制作类动作 - Manual / Operational / Crafting Actions)
+ActPhysical   运动 (运动/身体动态类动作 - Movement / Physical Dynamics Actions)
+ActSocial     社交 (社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions)

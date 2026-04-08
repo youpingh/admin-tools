@@ -1,0 +1,7 @@
+
+1 - Update the category field of json-prompts/*.json files to its English name. e.g. 动物 -> Animal (create a map) ✅
+2 - Update the category field of json-prompts/*.json files to be consistant with collection/all-words.json ✅
+3 - Create a new createPrompts.js to read json-prompts/*.json files to create a .jsonl for each category by level ✅
+4 - Review all the prompt builders ✅
+4 - Review all prompts (1, 2, 3, 4, 5, 6, 7)
+5 - Batch generate images by level starting from 1
