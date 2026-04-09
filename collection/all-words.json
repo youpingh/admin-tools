@@ -14911,6 +14911,38 @@
     "image": "Metal/锡.png"
   },
   {
+    "level": 7,
+    "index": 8,
+    "category": "Metal",
+    "grammar": "Noun",
+    "chinese": "金",
+    "english": "metal",
+    "pinyin": "Jīn",
+    "phrase": [
+      "黄金",
+      "金色",
+      "点石成金"
+    ],
+    "sentence": "金子是黄色的",
+    "image": "Metal/金.png"
+  },
+  {
+    "level": 7,
+    "index": 9,
+    "category": "Metal",
+    "grammar": "Noun",
+    "chinese": "铁",
+    "english": "iron, metal, hard",
+    "pinyin": "Tiě",
+    "phrase": [
+      "铁路",
+      "钢铁",
+      "铁证如山"
+    ],
+    "sentence": "这条铁路连接了两个城市。",
+    "image": "Metal/铁.png"
+  },
+  {
     "level": 2,
     "index": 1,
     "category": "Money",
@@ -16483,22 +16515,6 @@
     "index": 4,
     "category": "Nature",
     "grammar": "Noun",
-    "chinese": "金",
-    "english": "metal",
-    "pinyin": "Jīn",
-    "phrase": [
-      "黄金",
-      "金色",
-      "点石成金"
-    ],
-    "sentence": "金子是黄色的",
-    "image": "Nature/金.png"
-  },
-  {
-    "level": 2,
-    "index": 5,
-    "category": "Nature",
-    "grammar": "Noun",
     "chinese": "雷",
     "english": "thunder, mine, shocking",
     "pinyin": "Léi",
@@ -16512,7 +16528,7 @@
   },
   {
     "level": 2,
-    "index": 6,
+    "index": 5,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "溪",
@@ -16528,7 +16544,7 @@
   },
   {
     "level": 2,
-    "index": 7,
+    "index": 6,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "畔",
@@ -16544,7 +16560,7 @@
   },
   {
     "level": 2,
-    "index": 8,
+    "index": 7,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "霞",
@@ -16560,7 +16576,7 @@
   },
   {
     "level": 2,
-    "index": 9,
+    "index": 8,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "露",
@@ -16576,7 +16592,7 @@
   },
   {
     "level": 2,
-    "index": 10,
+    "index": 9,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "旱",
@@ -16592,7 +16608,7 @@
   },
   {
     "level": 2,
-    "index": 11,
+    "index": 10,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "浪",
@@ -16608,7 +16624,7 @@
   },
   {
     "level": 2,
-    "index": 12,
+    "index": 11,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "涝",
@@ -16624,7 +16640,7 @@
   },
   {
     "level": 2,
-    "index": 13,
+    "index": 12,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "雾",
@@ -16640,7 +16656,7 @@
   },
   {
     "level": 2,
-    "index": 14,
+    "index": 13,
     "category": "Nature",
     "grammar": "Noun",
     "chinese": "霜",
@@ -17101,22 +17117,6 @@
     ],
     "sentence": "他每天吃完晚饭都会去外面抽烟。",
     "image": "Noun/烟.png"
-  },
-  {
-    "level": 2,
-    "index": 9,
-    "category": "Noun",
-    "grammar": "Noun",
-    "chinese": "铁",
-    "english": "iron, metal, hard",
-    "pinyin": "Tiě",
-    "phrase": [
-      "铁路",
-      "钢铁",
-      "铁证如山"
-    ],
-    "sentence": "这条铁路连接了两个城市。",
-    "image": "Noun/铁.png"
   },
   {
     "level": 3,
