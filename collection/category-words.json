@@ -1,5 +1,5 @@
 [{"category":"ActBasic-1","count":15,"characters":["做","写","动","吃","喝","开","拉","推","梳","洗","玩","看","睡","脱","走"], "status": "done"},
-{"category":"ActBasic-2","count":13,"characters":["停","完","打","扔","找","排","敲","流","碰","离","穿","端","练"]},
+{"category":"ActBasic-2","count":13,"characters":["停","完","打","扔","找","排","敲","流","碰","离","穿","端","练"], "status": "done"},
 {"category":"ActBasic-3","count":14,"characters":["歇","献","陪","入","吞","托","护","招","止","泡","炒","煮","熨","犯"]},
 {"category":"ActBasic-4","count":12,"characters":["磨","织","藏","铺","闭","除","充","凑","删","削","剥","割"]},
 {"category":"ActBasic-5","count":14,"characters":["劈","勾","叠","叼","吻","咽","啃","喘","嚼","寻","屯","延","扛","扮"]},
@@ -7,7 +7,7 @@
 {"category":"ActBasic","count":84,"characters":[]},
 
 {"category":"ActManual-1","count":14,"characters":["加","查","煎","建","抓","按","放","敢","演","照","补","订","调","试"], "status": "done"},
-{"category":"ActManual-2","count":15,"characters":["举","冲","切","剪","吐","吹","咬","咳","喷","夹","射","戒","扶","抄","披"]},
+{"category":"ActManual-2","count":15,"characters":["举","冲","切","剪","吐","吹","咬","咳","喷","夹","射","戒","扶","抄","披"], "status": "done"},
 {"category":"ActManual-3","count":15,"characters":["抬","拆","拍","拔","拼","挡","挤","插","握","搞","摆","摇","摘","支","救"]},
 {"category":"ActManual-4","count":12,"characters":["晒","漏","绕","装","躲","钓","作","刮","刺","吊","埋","奏"]},
 {"category":"ActManual-5","count":13,"characters":["扣","拖","挖","挨","捉","捕","掏","撑","晾","束","灭","凿","创"]},
@@ -15,7 +15,7 @@
 {"category":"ActManual","count":82,"characters":[]},
 
 {"category":"ActPhysical-1","count":13,"characters":["翻","跑","跳","爬","追","刻","压","干","弄","挂","指","闪","闹"], "status": "done"},
-{"category":"ActPhysical-2","count":15,"characters":["倒","扑","扭","跨","踢","踩","钻","奔","晃","抖","抛","抡","挥","挽","捂"]},
+{"category":"ActPhysical-2","count":15,"characters":["倒","扑","扭","跨","踢","踩","钻","奔","晃","抖","抛","抡","挥","挽","捂"], "status": "done"},
 {"category":"ActPhysical-3","count":14,"characters":["捅","捆","捏","捶","掀","掐","揉","揪","搀","搁","摊","撇","撤","撬"]},
 {"category":"ActPhysical-4","count":14,"characters":["攻","斗","斩","映","曰","栽","榨","沏","沾","注","浇","涂","涮","淋"]},
 {"category":"ActPhysical-5","count":14,"characters":["淌","淘","溢","灌","炖","熏","熬","盗","砍","砸","磕","积","筑","筛"]},
@@ -23,7 +23,7 @@
 {"category":"ActPhysical","count":82,"characters":[]},
 
 {"category":"ActSocial-1","count":13,"characters":["帮","办","求","让","选","通","问","奖","罚","使","合","教","用"], "status": "done"},
-{"category":"ActSocial-2","count":14,"characters":["赶","造","配","防","领","证","争","修","划","吸","处","守","当","扫"]},
+{"category":"ActSocial-2","count":14,"characters":["赶","造","配","防","领","证","争","修","划","吸","处","守","当","扫"], "status": "done"},
 {"category":"ActSocial-3","count":14,"characters":["投","抱","抽","挑","散","替","汇","治","测","破","租","移","等","结"]},
 {"category":"ActSocial-4","count":15,"characters":["聚","贴","赢","连","遇","避","醒","隔","骗","劝","骂","据","负","赌","赖"]},
 {"category":"ActSocial-5","count":15,"characters":["逼","集","顾","蒙","劫","征","许","设","豁","赴","蹭","辞","逗","逢","邀"]},
@@ -31,12 +31,12 @@
 {"category":"ActSocial","count":83,"characters":[]},
 
 {"category":"Animal-1","count":14,"characters":["兔","牛","狗","狼","猫","猴","羊","虎","马","燕","鸟","鸡","鸭","鹅"], "status": "done"},
-{"category":"Animal-2","count":14,"characters":["猪","象","鹿","鼠","鲨","鲸","熊","蛇","龙","犬","翼","卵","壳","豹"]},
+{"category":"Animal-2","count":14,"characters":["猪","象","鹿","鼠","鲨","鲸","熊","蛇","龙","犬","翼","卵","壳","豹"], "status": "done"},
 {"category":"Animal-3","count":11,"characters":["虾","蛙","蟹","鱼","龟","虫","蚊","蜂","蝇","蝶","鹰"]},
 {"category":"Animal","count":39,"characters":[]},
 
 {"category":"Body-1","count":10,"characters":["发","嘴","头","手","牙","眼","肚","脚","脸","舌"], "status": "done"},
-{"category":"Body-2","count":8,"characters":["屁","眉","腿","臂","鼻","血","首","毛"]},
+{"category":"Body-2","count":8,"characters":["屁","眉","腿","臂","鼻","血","首","毛"], "status": "done"},
 {"category":"Body-5","count":11,"characters":["汗","肠","肩","胃","胆","背","胸","腰","项","拳","筋"]},
 {"category":"Body-6","count":10,"characters":["肾","胎","脾","腔","腺","肝","肺","腮","膜","足"]},
 {"category":"Body","count":39,"characters":[]},
@@ -46,20 +46,20 @@
 {"category":"Building","count":23,"characters":[]},
 
 {"category":"Causative-1","count":11,"characters":["尝","变","封","改","洒","化","胜","产","垮","损","揍"], "status": "done"},
-{"category":"Causative-2","count":10,"characters":["搂","撒","撕","消","炼","烤","烫","减","吵","堵"]},
+{"category":"Causative-2","count":10,"characters":["搂","撒","撕","消","炼","烤","烫","减","吵","堵"], "status": "done"},
 {"category":"Causative-4","count":13,"characters":["填","断","死","烧","败","冻","吓","增","害","撞","显","杀","塞"]},
 {"category":"Causative-6","count":15,"characters":["扎","折","揭","染","毁","泼","混","添","炸","烘","爆","裂","呛","塌","宰"]},
 {"category":"Causative-7","count":14,"characters":["截","戳","掰","掺","搅","搓","泄","泻","淹","渗","焊","皱","胀","融"]},
 {"category":"Causative","count":63,"characters":[]},
 
-{"category":"Certainty-2","count":4,"characters":["稳","遍","必","须"]},
+{"category":"Certainty-2","count":4,"characters":["稳","遍","必","须"], "status": "done"},
 {"category":"Certainty","count":4,"characters":[]},
 
 {"category":"Clothing-1","count":11,"characters":["帽","衣","袜","裙","裤","鞋","枕","毯","被","服","丝"], "status": "done"},
 {"category":"Clothing","count":11,"characters":[]},
 
 {"category":"Color-1","count":7,"characters":["橙","紫","红","绿","蓝","青","黄"], "status": "done"},
-{"category":"Color-2","count":6,"characters":["灰","白","粉","虹","黑","色"]},
+{"category":"Color-2","count":6,"characters":["灰","白","粉","虹","黑","色"], "status": "done"},
 {"category":"Color","count":13,"characters":[]},
 
 {"category":"Communication-1","count":10,"characters":["话","叫","听","哭","唱","喊","笑","说","请","读"], "status": "done"},
@@ -69,15 +69,15 @@
 {"category":"Communication","count":40,"characters":[]},
 
 {"category":"Conjunction-1","count":9,"characters":["和","但","或","既","而","也","并","却","另"], "status": "done"},
-{"category":"Conjunction-2","count":9,"characters":["与","因","若","虽","且","乃","则","及","亦"]},
+{"category":"Conjunction-2","count":9,"characters":["与","因","若","虽","且","乃","则","及","亦"], "status": "done"},
 {"category":"Conjunction","count":18,"characters":[]},
 
 {"category":"Culture-1","count":10,"characters":["字","句","词","琴","舞","鼓","墨","文","棋","谱"], "status": "done"},
-{"category":"Culture-2","count":12,"characters":["歌","生","信","福","戏","版","礼","诗","剧","印","章","德"]},
+{"category":"Culture-2","count":12,"characters":["歌","生","信","福","戏","版","礼","诗","剧","印","章","德"], "status": "done"},
 {"category":"Culture","count":22,"characters":[]},
 
 {"category":"DateTime-1","count":11,"characters":["早","晚","分","周","天","年","时","月","秒","岁","日"], "status": "done"},
-{"category":"DateTime-2","count":11,"characters":["今","明","昨","现","元","号","期","季","末","夜","钟"]},
+{"category":"DateTime-2","count":11,"characters":["今","明","昨","现","元","号","期","季","末","夜","钟"], "status": "done"},
 {"category":"DateTime","count":22,"characters":[]},
 
 {"category":"Degree-1","count":14,"characters":["太","很","最","更","较","挺","极","稍","至","颇","低","广","紧","荒"], "status": "done"},
@@ -105,22 +105,22 @@
 {"category":"Food-2","count":10,"characters":["饼","粥","酱","醋","餐","丸","汁","蜜","蛋","酒"]},
 {"category":"Food","count":23,"characters":[]},
 
-{"category":"Frequency-2","count":12,"characters":["常","都","再","仅","又","只","总","每","共","唯","屡","皆"]},
+{"category":"Frequency-2","count":12,"characters":["常","都","再","仅","又","只","总","每","共","唯","屡","皆"], "status": "done"},
 {"category":"Frequency","count":12,"characters":[]},
 
-{"category":"Furniture-2","count":16,"characters":["床","桌","椅","灯","窗","门","凳","柜","画","壶","框","桶","瓷","筒","缸","罐"]},
+{"category":"Furniture-2","count":16,"characters":["床","桌","椅","灯","窗","门","凳","柜","画","壶","框","桶","瓷","筒","缸","罐"], "status": "done"},
 {"category":"Furniture","count":16,"characters":[]},
 
 {"category":"Health-1","count":14,"characters":["病","药","伤","痛","梦","泪","毒","疤","尿","痰","瘫","瘾","癌","粪"], "status": "done"},
 {"category":"Health","count":14,"characters":[]},
 
 {"category":"MeasureWord-1","count":13,"characters":["个","间","斤","次","件","度","条","辆","位","层","段","种","部"], "status": "done"},
-{"category":"MeasureWord-2","count":17,"characters":["顿","棵","篇","份","列","台","匹","吨","届","颗","堆","朵","片","盒","类","节","阵"]},
+{"category":"MeasureWord-2","count":17,"characters":["顿","棵","篇","份","列","台","匹","吨","届","颗","堆","朵","片","盒","类","节","阵"], "status": "done"},
 {"category":"MeasureWord-3","count":13,"characters":["趟","滴","番","幢","枚","缕","艘","亩","剂","栋","盏","磅","粒"]},
 {"category":"MeasureWord","count":43,"characters":[]},
 
 {"category":"Mental-1","count":14,"characters":["能","会","学","忘","想","爱","考","见","记","该","怕","懂","要","管"], "status": "done"},
-{"category":"Mental-2","count":13,"characters":["约","迷","应","算","编","冒","忍","怨","恨","愿","搜","瞧","认"]},
+{"category":"Mental-2","count":13,"characters":["约","迷","应","算","编","冒","忍","怨","恨","愿","搜","瞧","认"], "status": "done"},
 {"category":"Mental-3","count":13,"characters":["判","嫌","尽","愈","耸","肯","觉","识","误","仿","依","宠","审"]},
 {"category":"Mental-4","count":16,"characters":["忌","患","惊","惹","感","憋","探","揣","揽","盼","瞅","瞒","瞪","筹","继","续"]},
 {"category":"Mental-5","count":15,"characters":["绷","缓","缝","缠","缩","翘","耍","耐","耗","致","蘸","计","贪","需","饶"]},
@@ -129,11 +129,11 @@
 {"category":"Metal-7","count":7,"characters":["钙","钢","铅","铜","铝","锈","锡"]},
 {"category":"Metal","count":7,"characters":[]},
 
-{"category":"Money-2","count":12,"characters":["钱","值","费","亏","价","银","债","利","券","税","股","账"]},
+{"category":"Money-2","count":12,"characters":["钱","值","费","亏","价","银","债","利","券","税","股","账"], "status": "done"},
 {"category":"Money","count":12,"characters":[]},
 
 {"category":"Motion-1","count":10,"characters":["回","起","闻","飞","出","到","去","摔","来","进"], "status": "done"},
-{"category":"Motion-2","count":9,"characters":["围","张","搬","游","站","越","转","随","骑"]},
+{"category":"Motion-2","count":9,"characters":["围","张","搬","游","站","越","转","随","骑"], "status": "done"},
 {"category":"Motion-3","count":11,"characters":["交","引","归","戴","沉","登","落","行","过","逛","降"]},
 {"category":"Motion-4","count":11,"characters":["乘","伸","升","待","涨","滚","立","运","退","逃","闯"]},
 {"category":"Motion-5","count":9,"characters":["悬","拐","搭","浮","渡","牵","超","跌","踏"]},
@@ -142,14 +142,14 @@
 {"category":"Motion","count":72,"characters":[]},
 
 {"category":"Nature-1","count":11,"characters":["云","地","星","阳","雨","雪","风","湖","海","河","冰"], "status": "done"},
-{"category":"Nature-2","count":14,"characters":["土","水","火","金","雷","溪","畔","霞","露","旱","浪","涝","雾","霜"]},
+{"category":"Nature-2","count":14,"characters":["土","水","火","金","雷","溪","畔","霞","露","旱","浪","涝","雾","霜"], "status": "done"},
 {"category":"Nature","count":25,"characters":[]},
 
 {"category":"Negation-1","count":9,"characters":["不","没","别","无","非","甭","勿","未","竟"], "status": "done"},
 {"category":"Negation","count":9,"characters":[]},
 
 {"category":"Noun-1","count":12,"characters":["块","气","票","网","表","口","心","皮","冬","夏","春","秋"], "status": "done"},
-{"category":"Noun-2","count":9,"characters":["力","包","图","性","板","架","步","烟","铁"]},
+{"category":"Noun-2","count":9,"characters":["力","包","图","性","板","架","步","烟","铁"], "status": "done"},
 {"category":"Noun-3","count":13,"characters":["事","伞","光","响","宝","座","法","玉","箱","袋","货","轮","量"]},
 {"category":"Noun-4","count":13,"characters":["乙","品","团","布","式","扇","派","煤","甲","盖","社","系","辈"]},
 {"category":"Noun-5","count":14,"characters":["串","原","孔","屑","岔","料","景","权","杆","样","氢","渣","理","罪"]},
@@ -158,15 +158,15 @@
 {"category":"Noun","count":91,"characters":[]},
 
 {"category":"Number-1","count":11,"characters":["一","七","三","九","二","五","八","六","十","四","零"], "status": "done"},
-{"category":"Number-2","count":12,"characters":["第","万","千","数","百","两","亿","俩","倍","些","余","码"]},
+{"category":"Number-2","count":12,"characters":["第","万","千","数","百","两","亿","俩","倍","些","余","码"], "status": "done"},
 {"category":"Number","count":23,"characters":[]},
 
 {"category":"Particle-1","count":10,"characters":["啊","唉","了","吗","呢","的","着","吧","潮","呀"], "status": "done"},
-{"category":"Particle-2","count":15,"characters":["哈","愁","哇","嗨","嗯","啦","嘛","哎","哦","嘿","仇","冤","情","矣","之"]},
+{"category":"Particle-2","count":15,"characters":["哈","愁","哇","嗨","嗯","啦","嘛","哎","哦","嘿","仇","冤","情","矣","之"], "status": "done"},
 {"category":"Particle","count":25,"characters":[]},
 
 {"category":"People-1","count":13,"characters":["人","女","子","家","男","们","名","姓","员","伙","兵","王","群"], "status": "done"},
-{"category":"People-2","count":15,"characters":["官","神","鬼","党","佛","命","族","母","组","丁","伴","姨","娘","贼","魂"]},
+{"category":"People-2","count":15,"characters":["官","神","鬼","党","佛","命","族","母","组","丁","伴","姨","娘","贼","魂"], "status": "done"},
 {"category":"People","count":28,"characters":[]},
 
 {"category":"Place-1","count":14,"characters":["国","山","市","店","街","路","道","院","区","厂","城","室","村","楼"], "status": "done"},
@@ -178,7 +178,7 @@
 {"category":"Plant","count":14,"characters":[]},
 
 {"category":"Possession-1","count":9,"characters":["买","拿","摸","养","卖","占","得","给","送"], "status": "done"},
-{"category":"Possession-2","count":14,"characters":["付","代","传","借","受","带","换","接","取","寄","收","获","赏","输"]},
+{"category":"Possession-2","count":14,"characters":["付","代","传","借","受","带","换","接","取","寄","收","获","赏","输"], "status": "done"},
 {"category":"Possession-4","count":11,"characters":["丢","抢","挣","提","赔","赠","递","夺","捐","捡","赚"]},
 {"category":"Possession-7","count":12,"characters":["供","免","兜","押","捞","捧","攒","缴","购","赎","赐","雇"]},
 {"category":"Possession","count":46,"characters":[]},
@@ -194,15 +194,15 @@
 {"category":"Quantitative-1","count":13,"characters":["多","少","全","半","整","空","够","满","尺","套","寸","幅","独"], "status": "done"},
 {"category":"Quantitative","count":13,"characters":[]},
 
-{"category":"Relational-2","count":15,"characters":["外","真","近","远","阴","久","初","双","古","齐","假","单","反","密","纯"]},
+{"category":"Relational-2","count":15,"characters":["外","真","近","远","阴","久","初","双","古","齐","假","单","反","密","纯"], "status": "done"},
 {"category":"Relational-3","count":15,"characters":["正","副","同","杂","洋","特","精","绝","野","俗","旺","残","盛","素","逆"]},
 {"category":"Relational","count":30,"characters":[]},
 
-{"category":"School-2","count":9,"characters":["卡","科","级","课","队","题","班","页","册"]},
+{"category":"School-2","count":9,"characters":["卡","科","级","课","队","题","班","页","册"], "status": "done"},
 {"category":"School","count":9,"characters":[]},
 
 {"category":"SetDenoting-1","count":8,"characters":["冷","大","小","热","短","矮","长","高"], "status": "done"},
-{"category":"SetDenoting-2","count":10,"characters":["净","凉","快","慢","新","晴","熟","脏","臭","香"]},
+{"category":"SetDenoting-2","count":10,"characters":["净","凉","快","慢","新","晴","熟","脏","臭","香"], "status": "done"},
 {"category":"SetDenoting-3","count":12,"characters":["准","强","旧","甜","老","胖","乱","亮","厚","咸","圆","宽"]},
 {"category":"SetDenoting-4","count":12,"characters":["暗","深","湿","粗","细","肥","苦","轻","辣","透","酸","鲜"]},
 {"category":"SetDenoting-5","count":16,"characters":["浅","浓","淡","滑","烂","瘦","直","硬","碎","脆","薄","软","重","平","弯","弱"]},
@@ -216,14 +216,14 @@
 {"category":"Stationery-1","count":6,"characters":["书","本","笔","纸","机","电"], "status": "done"},
 {"category":"Stationery","count":6,"characters":[]},
 
-{"category":"Stative-2","count":9,"characters":["忙","急","累","渴","静","饱","饿","困","安"]},
+{"category":"Stative-2","count":9,"characters":["忙","急","累","渴","静","饱","饿","困","安"], "status": "done"},
 {"category":"Stative-4","count":12,"characters":["慌","醉","闲","昏","晕","愣","漫","痒","糊","虚","闷","馋"]},
 {"category":"Stative","count":21,"characters":[]},
 
 {"category":"Tableware-1","count":9,"characters":["刀","勺","叉","盘","碗","筷","杯","瓶","锅"], "status": "done"},
 {"category":"Tableware","count":9,"characters":[]},
 
-{"category":"Time-2","count":13,"characters":["刚","就","还","仍","先","已","才","曾","迟","将","即","尚","暂"]},
+{"category":"Time-2","count":13,"characters":["刚","就","还","仍","先","已","才","曾","迟","将","即","尚","暂"], "status": "done"},
 {"category":"Time","count":13,"characters":[]},
 
 {"category":"Toiletry-1","count":5,"characters":["巾","油","刷","盆","膏"], "status": "done"},

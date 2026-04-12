@@ -27,92 +27,87 @@
     Manner, Time, Frequency, Degree, Certainty, Linking, Negation
 
 // --- 自然与环境 ---
-Nature        自然
-Animal        动物
-Plant         植物
-Family        家庭
-Body          身体
-People        人物
-Health        健康
-Occupations   职业 (gone)
-Sports        运动 (gone)
+{"category":"Nature","cname":"自然
+{"category":"Animal","cname":"动物
+{"category":"Plant","cname":"植物
+{"category":"Family","cname":"家庭
+{"category":"Body","cname":"身体
+{"category":"People","cname":"人物
+{"category":"Health","cname":"健康
 
 // --- 日常生活 ---
-Food          食物
-Clothing      衣物
-Home          家居
-Vehicle       交通工具
-Culture       文化
-Vegetable     蔬菜
-Fruit         水果 (gone)
-Furniture     家具
-Tableware     餐具 
+{"category":"Food","cname":"食物
+{"category":"Clothing","cname":"衣物
+{"category":"Home","cname":"家居
+{"category":"Vehicle","cname":"交通工具
+{"category":"Culture","cname":"文化
+{"category":"Vegetable","cname":"蔬菜
+{"category":"Furniture","cname":"家具
+{"category":"Tableware","cname":"餐具 
 
 // --- 抽象与系统 ---
-Number        数字
-DateTime      时间
-Color         颜色
-Direction     方向
-Money         金钱
-Shape         形状
-Building      建筑
-Metal         金属
+{"category":"Number ","cname":"数字
+{"category":"DateTime","cname":"日期从
+{"category":"Color","cname":"颜色
+{"category":"Direction","cname":"方向
+{"category":"Money","cname":"金钱
+{"category":"Shape","cname":"形状
+{"category":"Building","cname":"建筑
+{"category":"Metal","cname":"金属
 
 // --- 行为与交流 ---
-Movement      动作 (gone)
-Emotion       情感
+{"category":"Emotion","cname":"情感
 
 // --- 地点与物品 ---
-Place         地点
-Tool          工具
-School        学校
-Weapon        武器
-Stationery    文具
+{"category":"Place","cname":"地点
+{"category":"Tool","cname":"工具
+{"category":"School","cname":"学校
+{"category":"Weapon","cname":"武器
+{"category":"Stationery","cname":"文具
 
 // --- 其他抽象概念 ---
-Quantity      数量
-Quality       性质
-MeasureWord   量词
-Particle      语气
-Preposition   介词
-Pronoun       代词
+{"category":"Quantity","cname":"数量
+{"category":"Quality","cname":"性质
+{"category":"MeasureWord","cname":"量词
+{"category":"Particle","cname":"语气
+{"category":"Preposition","cname":"介词
+{"category":"Pronoun","cname":"代词
 
 
 // --- 形容词语义类别 ---
-SetDenoting   类属
-Relational    关系
-Evaluative    评价
-Quantitative  数量
-Stative       状态
+{"category":"SetDenoting","cname":"类属
+{"category":"Relational","cname":"关系
+{"category":"Evaluative","cname":"评价
+{"category":"Quantitative  数量
+{"category":"Stative","cname":"状态
 
 
 // --- 动词语义类别 ---
-Activity      (see next)
-Mental        心理
-Communication 交流
-Causative     使动
-Existence     存在
-Motion        移动
-Possession    拥有
+{"category":"Mental","cname":"心理
+{"category":"Communication 交流
+{"category":"Causative","cname":"使动
+{"category":"Existence","cname":"存在
+{"category":"Motion","cname":"移动
+{"category":"Possession","cname":"拥有
 
 // --- 行为动词语义类别 (Activity) ---
-ActBasic      日常 (基本生活动作 - Basic Daily Living Activities)
-ActManual     手工 (手工/操作/制作类动作 - Manual / Operational / Crafting Actions)
-ActPhysical   运动 (运动/身体动态类动作 - Movement / Physical Dynamics Actions)
-ActSocial     社交 (社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions)
+{"category":"ActBasic","cname":"日常 (基本生活动作 - Basic Daily Living Activities)
+{"category":"ActManual","cname":"手工 (手工/操作/制作类动作 - Manual / Operational / Crafting Actions)
+{"category":"ctPhysical","cname":"运动 (运动/身体动态类动作 - Movement / Physical Dynamics Actions)
+{"category":"ActSocial","cname":"社交 (社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions)
 
 // --- 副词语义类别 ---
-Manner        方式 (gone)
-Time          时间
-Frequency     频率
-Degree        程度
-Certainty     确定性
-Conjunction   连接
-Negation      否定
+{"category":"Time","cname":"时间
+{"category":"Frequency","cname":"频率
+{"category":"Degree","cname":"程度
+{"category":"Certainty","cname":"确定
+{"category":"Conjunction","cname":"连接
+{"category":"Negation","cname":"否定
+
 
 Adjust level. Next -> Activity, MeasureWord
 
-// -- Somce categories changes
+// -- Some categories changes
 Fruit --> Food
 Linking --> Conjunction
 Manner --> Evaluative
@@ -166,3 +161,89 @@ ActBasic      日常 (基本生活动作 - Basic Daily Living Activities)
 ActManual     手工 (手工/操作/制作类动作 - Manual / Operational / Crafting Actions)
 ActPhysical   运动 (运动/身体动态类动作 - Movement / Physical Dynamics Actions)
 ActSocial     社交 (社会/交往/抽象行为动作 - Social / Interaction / Abstract Actions)
+
+// The final categories list
+[
+{"category":"comment", "cname": "名词 - 抽象与系统","sequence":-1},
+{"category":"Number ","cname":"数字","sequence":2},
+{"category":"Color","cname":"颜色","sequence":4},
+{"category":"Shape","cname":"形状","sequence":6},
+{"category":"DateTime","cname":"日期","sequence":8},
+{"category":"Building","cname":"建筑","sequence":12},
+{"category":"Metal","cname":"金属","sequence":14},
+{"category":"Money","cname":"金钱","sequence":16},
+{"category":"Direction","cname":"方向","sequence":18},
+
+{"category":"comment", "cname": "名词 - 日常生活","sequence":-1},
+{"category":"Clothing","cname":"衣物","sequence":20},
+{"category":"Food","cname":"食物","sequence":22},
+{"category":"Home","cname":"家居","sequence":24},
+{"category":"Vegetable","cname":"蔬菜","sequence":26},
+{"category":"Furniture","cname":"家具","sequence":28},
+{"category":"Tableware","cname":"餐具","sequence":30},
+{"category":"Toiletry","cname":"洗漱","sequence":32},
+{"category":"Toy","cname":"玩具","sequence":34},
+{"category":"Vehicle","cname":"交通工具","sequence":36},
+
+{"category":"comment", "cname": "名词 - 自然与环境","sequence":-1},
+{"category":"Animal","cname":"动物","sequence":40},
+{"category":"Plant","cname":"植物","sequence":42},
+{"category":"Family","cname":"家庭","sequence":44},
+{"category":"Body","cname":"身体","sequence":46},
+{"category":"People","cname":"人物","sequence":48},
+{"category":"Health","cname":"健康","sequence":50},
+{"category":"Nature","cname":"自然","sequence":52},
+{"category":"Culture","cname":"文化","sequence":54},
+
+{"category":"comment", "cname": "名词 - 地点与物品","sequence":-1},
+{"category":"Place","cname":"地点","sequence":60},
+{"category":"Tool","cname":"工具","sequence":62},
+{"category":"School","cname":"学校","sequence":64},
+{"category":"Stationery","cname":"文具","sequence":66},
+{"category":"Weapon","cname":"武器","sequence":68},
+
+{"category":"comment", "cname": "形容词","sequence":-1},
+{"category":"SetDenoting","cname":"类属","sequence":70},
+{"category":"Relational","cname":"关系","sequence":72},
+{"category":"Evaluative","cname":"评价","sequence":74},
+{"category":"Quantitative  数量","sequence":76},
+{"category":"Stative","cname":"状态","sequence":78},
+
+{"category":"comment", "cname": "动词 - 行为与交流","sequence":-1},
+{"category":"Emotion","cname":"情感","sequence":80},
+{"category":"Mental","cname":"心理","sequence":82},
+{"category":"Communication 交流","sequence":84},
+{"category":"Causative","cname":"使动","sequence":86},
+{"category":"Existence","cname":"存在","sequence":88},
+{"category":"Motion","cname":"移动","sequence":90},
+{"category":"Possession","cname":"拥有","sequence":92},
+
+{"category":"comment", "cname": "动词 - 行为动词","sequence":-1},
+{"category":"ActBasic","cname":"日常","sequence":94},
+{"category":"ActManual","cname":"手工","sequence":96},
+{"category":"ActPhysical","cname":"运动","sequence":98},
+{"category":"ActSocial","cname":"社交","sequence":100},
+
+{"category":"comment", "cname": "通用词类","sequence":-1},
+{"category":"Noun","cname":"名词","sequence":110},
+{"category":"Verb","cname":"动词","sequence":112},
+
+{"category":"comment", "cname": "副词","sequence":-1},
+{"category":"Time","cname":"时间","sequence":120},
+{"category":"Frequency","cname":"频率","sequence":122},
+{"category":"Degree","cname":"程度","sequence":124},
+{"category":"Certainty","cname":"确定","sequence":126},
+{"category":"Conjunction","cname":"连接","sequence":128},
+{"category":"Negation","cname":"否定","sequence":130},
+
+{"category":"comment", "cname": "其他抽象概念","sequence":-1},
+{"category":"Quantity","cname":"数量","sequence":132},
+{"category":"Quality","cname":"性质","sequence":134},
+{"category":"MeasureWord","cname":"量词","sequence":136},
+{"category":"Particle","cname":"语气","sequence":138},
+{"category":"Preposition","cname":"介词","sequence":140},
+{"category":"Pronoun","cname":"代词","sequence":142},
+
+{"category":"Deleted","cname":"删除的字","sequence":400},
+{"category":"Unknown","cname":"待定","sequence":500}
+]
