@@ -10,6 +10,39 @@ import fs from 'fs';
 // --- CONFIGURATION ---
 const INPUT_FILE = "./collection/all-words.json";
 const OUTPUT_FILE = "./collection/category-words.json";
+const ALL_CHARACTERS = './collection/all-chars.txt';
+
+/**
+ * Prints all characters.
+ */
+function printCharacters() {
+
+  const json = fs.readFileSync(INPUT_FILE, 'utf8');
+  const words = JSON.parse(json);
+  const numChars = 50;
+  const lists = [];
+
+  let chars = '';
+  let count = 0;
+  for (const word of words) {
+    const character = word.chinese;
+    chars += `${character}, `;
+    count ++;
+    if (count > numChars) {
+      lists.push(`${chars}\n\n`);
+      chars = '';
+      count = 0;
+    }
+  }
+
+  const jsonString = JSON.stringify(lists);
+  // let printable = jsonString.replaceAll('},{', '},\n{');
+  // printable = printable.replaceAll(':[]},', ':[]},\n');
+
+  fs.writeFileSync(ALL_CHARACTERS, lists.toString());
+  console.log('Done, file is:', ALL_CHARACTERS);
+}
+
 
 /**
  * Prints all characters by category and level for reference.
@@ -106,7 +139,7 @@ function sanitize(name) {
  */
 function runScript() {
   if (process.argv.length === 2) {
-    console.error('Expected [print | check]');
+    console.error('Expected [print | check | chars]');
     process.exit(1);
   }
 
@@ -114,6 +147,9 @@ function runScript() {
   switch (func) {
     case 'print':
       printWordsByCategory();
+      break;
+    case 'chars':
+      printCharacters();
       break;
     case 'check':
       checkDubplicatedChars();
