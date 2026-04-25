@@ -309,12 +309,12 @@ function buildPromptFrequency(p) {
 
 // Emotion 情感组（抽象-情感，无任务句 + 强隐喻场景）
 function buildPromptEmotion(p) {
- return `${NO_TEXT} ${BACKGROUND_SIMPLE} 画一张${p.sceneStyle}, ${p.action}.`;
+  return `${NO_TEXT} ${BACKGROUND_SIMPLE} 画一张${p.sceneStyle}, ${p.action}.`;
 }
 
 // Degree 时间组
 function buildPromptDateTime(p) {
- return `${NO_TEXT} ${BACKGROUND_SIMPLE} 画一张${p.sceneStyle}, ${p.action}。`;
+  return `${NO_TEXT} ${BACKGROUND_SIMPLE} 画一张${p.sceneStyle}, ${p.action}。`;
 }
 
 // Degree 程度组
@@ -369,7 +369,8 @@ function buildPromptClothing(p) {
 
 // Color 颜色组（有人物，物品表现颜色）
 function buildPromptColor(p) {
-  return `${NO_TEXT} ${BACKGROUND_SIMPLE} 为“${p.character}”字画一张${p.sceneStyle}, 展示这种颜色等。`
+  return `${NO_TEXT} ${BACKGROUND_SIMPLE} 为“${p.character}”字画一张${p.sceneStyle},  ${p.action}, 突出展示这个拟人化的${p.keyWords}。作为陪衬的人物在画面中要占很少的地方。简单的背景，square format.`;
+  // return `${NO_TEXT} ${BACKGROUND_SIMPLE} 为“${p.character}”字画一张${p.sceneStyle}, 展示这种颜色等。`
 }
 
 // Communication 交流动词组
