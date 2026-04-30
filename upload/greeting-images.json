@@ -1,0 +1,188 @@
+[
+  {
+    "category": "All",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/TwoThumbs.png",
+    "great": [
+      "Thumbs/two-thumbs-up-yellow.jpg",
+      "Thumbs/two-thumbs-up-purple.jpg",
+      "Thumbs/two-thumbs-up-pink.jpg"
+    ]
+  },
+  {
+    "category": "Body",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/JJ.png",
+    "great": [
+      "CocoMelon/JJ.png",
+      "CocoMelon/TomTom.png",
+      "CocoMelon/YoYo.png"
+    ]
+  },
+  {
+    "category": "Clothes",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Mort.png",
+    "great": [
+      "Bluey/Mort.png",
+      "Bluey/Missy.png",
+      "Bluey/Snickers.png"
+    ]
+  },
+  {
+    "category": "Color",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Bob.png",
+    "great": [
+      "Bluey/Bob.png",
+      "Bluey/Bandit.png",
+      "Bluey/Chilli.png"
+    ]
+  },
+  {
+    "category": "Family",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Bluey.png",
+    "great": [
+      "Bluey/Bluey.png",
+      "Bluey/Family.png",
+      "Bluey/Bingo.png"
+    ]
+  },
+  {
+    "category": "Food",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Cats.png",
+    "great": [
+      "Animal/cats-1.jpg",
+      "Animal/cats-2.jpg",
+      "Animal/cats-3.jpg"
+    ]
+  },
+  {
+    "category": "Furniture",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/AppBarry.png",
+    "great": [
+      "CocoMelon/AppBarry.png",
+      "CocoMelon/Bingo.png",
+      "CocoMelon/Dad.png",
+      "CocoMelon/Mom.png"
+    ]
+  },
+  {
+    "category": "MultipleChoice",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/TwoThumbs.png",
+    "great": [
+      "Thumbs/two-thumbs-up-yellow.jpg",
+      "CocoMelon/CeCe.png",
+      "Bluey/Bluey.png",
+      "Bluey/Bingo.png",
+      "CocoMelon/JJ.png",
+      "CocoMelon/TomTom.png",
+      "CocoMelon/YoYo.png",
+      "CocoMelon/Bingo.png",
+      "Bluey/Coco.png",
+      "Disney/Jasmine.png"
+    ]
+  },
+  {
+    "category": "Nature",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Coco.png",
+    "great": [
+      "Bluey/Coco.png",
+      "Bluey/Chloe.png",
+      "Bluey/Calypso.png"
+    ]
+  },
+  {
+    "category": "Number",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/TwoThumbs.png",
+    "great": [
+      "Thumbs/two-thumbs-up-yellow.jpg",
+      "Thumbs/two-thumbs-up-purple.jpg",
+      "Thumbs/two-thumbs-up-pink.jpg"
+    ]
+  },
+  {
+    "category": "Shape",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/CeCe.png",
+    "great": [
+      "CocoMelon/CeCe.png",
+      "CocoMelon/Cody.png",
+      "CocoMelon/Nina.png",
+      "CocoMelon/Bella.png"
+    ]
+  },
+  {
+    "category": "Stationery",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Jasmine.png",
+    "great": [
+      "Disney/Cinderella.png",
+      "Disney/Jasmine.png",
+      "Disney/Mulan.png",
+      "Disney/Snowwhite.png"
+    ]
+  },
+  {
+    "category": "Tableware",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Jack.png",
+    "great": [
+      "Bluey/Jack.png",
+      "Bluey/Luchy.png",
+      "Bluey/Machenzie.png"
+    ]
+  },
+  {
+    "category": "Toiletry",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Grandma.png",
+    "great": [
+      "CocoMelon/Grandma.png",
+      "CocoMelon/Grandpa.png",
+      "CocoMelon/Nico.png"
+    ]
+  },
+  {
+    "category": "Toy",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Dogs.png",
+    "great": [
+      "Animal/dogs-1.jpg",
+      "Animal/dogs-2.jpg",
+      "Animal/dogs-3.jpg"
+    ]
+  },
+  {
+    "category": "Verb-1",
+    "wrong": "try-again.jpg",
+    "ok": "talk-okay.jpg",
+    "icon": "Icons/Socks.png",
+    "great": [
+      "Bluey/Socks.png",
+      "Bluey/Stripe.png",
+      "Bluey/Terr.png"
+    ]
+  }
+]

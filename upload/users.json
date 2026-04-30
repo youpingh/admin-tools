@@ -1,0 +1,44 @@
+[
+  {
+    "email": "huaixip@gmail.com",
+    "allowed": true,
+    "level": 1,
+    "role": "visitor",
+    "name": "Huaixi"
+  },
+  {
+    "email": "langvong87@gmail.com",
+    "allowed": true,
+    "level": 1,
+    "role": "visitor",
+    "name": "Lang"
+  },
+  {
+    "email": "peter@TheGoodNeighbors.com",
+    "allowed": false,
+    "level": 1,
+    "role": "visitor",
+    "name": "Peter"
+  },
+  {
+    "email": "peterhu86@gmail.com",
+    "allowed": true,
+    "level": 1,
+    "role": "visitor",
+    "name": "Peter"
+  },
+  {
+    "email": "youping_hu@greatwallchineseacademy.org",
+    "allowed": true,
+    "level": 1,
+    "role": "admin",
+    "name": "Youping"
+  },
+  {
+    "email": "youpingh@gmail.com",
+    "allowed": true,
+    "level": 1,
+    "role": "admin",
+    "name": "Youping"
+  }
+]

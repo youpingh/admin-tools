@@ -8,8 +8,8 @@
 import fs from 'fs';
 
 // --- CONFIGURATION ---
-const INPUT_FILE = "./collection/all-words.json";
-const OUTPUT_FILE = "./collection/category-words.json";
+const WORDS_FILE = "./collection/all-words.json";
+const CATEGORY_WORDS_FILE = "./collection/category-words.json";
 const ALL_CHARACTERS = './collection/all-chars.txt';
 
 /**
@@ -17,7 +17,7 @@ const ALL_CHARACTERS = './collection/all-chars.txt';
  */
 function printCharacters() {
 
-  const json = fs.readFileSync(INPUT_FILE, 'utf8');
+  const json = fs.readFileSync(WORDS_FILE, 'utf8');
   const words = JSON.parse(json);
   const numChars = 50;
   const lists = [];
@@ -49,7 +49,7 @@ function printCharacters() {
  */
 function printWordsByCategory() {
 
-  const json = fs.readFileSync(INPUT_FILE, 'utf8');
+  const json = fs.readFileSync(WORDS_FILE, 'utf8');
   const words = JSON.parse(json);
 
   // group words by category
@@ -96,16 +96,16 @@ function printWordsByCategory() {
   let printable = jsonString.replaceAll('},{', '},\n{');
   printable = printable.replaceAll(':[]},', ':[]},\n');
 
-  fs.writeFileSync(OUTPUT_FILE, printable);
+  fs.writeFileSync(CATEGORY_WORDS_FILE, printable);
   console.log('Done!');
 }
 
 /**
  * Checks if there are duplicated characters in the words.json
  */
-function checkDubplicatedChars() {
+function checkDuplicatedChars() {
 
-  const json = fs.readFileSync(INPUT_FILE, 'utf8');
+  const json = fs.readFileSync(WORDS_FILE, 'utf8');
   const words = JSON.parse(json);
   let found = false;
 
@@ -152,7 +152,7 @@ function runScript() {
       printCharacters();
       break;
     case 'check':
-      checkDubplicatedChars();
+      checkDuplicatedChars();
       break;
     default:
       console.error(`Unknown function ${func}, expecting [print | check]`);
