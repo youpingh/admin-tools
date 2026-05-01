@@ -16,7 +16,7 @@ import fs from 'fs';
 
 const CATEGORY_DIR = './categories/';
 const WORDS_FILE = './collection/all-words.json';
-const DICTIONARY_FILE = './collection/dictionary-updated.json';
+const DICTIONARY_FILE = './collection/definitions.json';
 
 const GrammaticalCategories = [
   { "grammar": "Noun", "categories": ["Nature", "Animal", 'Bird', "Plant", "Family", 'Clothes', "Body", 'Fish', 'Insect', "People", "Health", "Occupations", "Sports", "Food", "Clothing", 'Stationery', 'Tableware', "Home", "Vehicle", "Culture", "Vegetable", "Fruit", "Furniture", "Number", "DateTime", "Color", "Direction", "Money", "Shape", "Building", "Metal", "Place", "Tool", "School", 'Toiletry', 'Toy', "Weapon"] },
@@ -30,13 +30,14 @@ const FunctionalCategories = [
 ]
 
 let dictionaryWords;
+let missedDef = [];
 
 async function mergeWordFiles() {
 
   const allWords = [];
   console.log(`Starting merging categorized words ...`);
 
-  // dictionaryWords = JSON.parse(fs.readFileSync(dictionaryFile, 'utf8'));
+  // dictionaryWords = JSON.parse(fs.readFileSync(DICTIONARY_FILE, 'utf8'));
   // console.log(`Starting merging categorized words with ${dictionaryWords.length} dictionary entries`);
 
   try {
@@ -80,6 +81,9 @@ async function mergeWordFiles() {
   // setIndies(sortedWords);
   fs.writeFileSync(WORDS_FILE, JSON.stringify(sortedWords, null, 2));
   console.log(sortedWords.length, ` words are merged into ${WORDS_FILE}`);
+  if (missedDef.length > 0) {
+    console.log('Missed definitions\n', missedDef.toString());
+  }
 }
 
 function toTitleCase(word) {
@@ -115,16 +119,18 @@ function getImagePath(word) {
 
 function getDefinition(word) {
   return word.definition;
-  // const entry = dictionaryWords.find(d => d.chinese == character);
+  // const entry = dictionaryWords.find(d => d.chinese == word.chinese);
   // if (entry) {
   //   return entry.definition;
   // } else {
-  //   return '';
+  //   console.log(`The definition of the character ${word.chinese} not found`);
+  //   missedDef.push(word.chinese);
+  //   return word.definition;
   // }
 }
 
 function setIndies(words) {
-  
+
   // re-count the index numbers of each category and level
   const counters = [];
   for (const word of words) {
